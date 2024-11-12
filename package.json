@@ -9,7 +9,7 @@
             "run": "pm2 start . --deep-monitoring --attach --name Tsuma",
             "suhail": "pm2 start . --deep-monitoring --attach --name Tsuma",
             "start": "pm2 start . --attach --name Tsuma",
-            "stop": "pm2 stop Suhail",
+            "stop": "pm2 stop Tsuma",
             "old-heroku-postbuild": "git clone https://github.com/Tsumahhh/suhail-whatsapp-bot.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/Tsumahhh/suhail-whatsapp-bbot.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
